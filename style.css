@@ -16,3 +16,18 @@
     height: 300px;
     border: 1px solid black;
 }
+
+.countryFlag {
+    width: auto;
+    height: 120px;
+    border-bottom: 1px solid black; 
+}
+
+.countryInfo {
+    display: flex;
+    flex-direction: column;
+}
+
+.countryInfo > p {
+    padding-top: 30px;
+}
